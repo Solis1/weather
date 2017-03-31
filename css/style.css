@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    position:fixed;
+    z-index: -1;
+}
+body{
+    background-color: rgb(28, 37, 143);
+}
+span{
+    font-family: 'Patua One', cursive;
+    font-size: 60px;
+    color: dimgrey;
+}
+#text{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding-top: 100px;
+}
+#grados{
+    font-size: 50px;
+    color: deepskyblue;
+    display: inline;
+}
+#wea{
+    display: inline;
+}
+#data{
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
+}
+p{
+    margin: 10px;
+    color: dimgray;
+}
+span#grados:hover{
+    cursor: pointer;
+}
+#imgClima{
+    font-size: 125px;
+    color: deepskyblue;
+}
+
