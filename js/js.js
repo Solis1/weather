@@ -10,7 +10,7 @@ $(document).ready(function () {
         navigator.geolocation.getCurrentPosition(function (position) {
 
             $.ajax({
-                url: "http://api.openweathermap.org/data/2.5/weather?q=&units=metric&lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=c1c00899bea54a22f66a4549f6d3eda8",
+                url: "http://api.openweathermap.org/data/2.5/weather?q=&mode=json&units=metric&lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=c1c00899bea54a22f66a4549f6d3eda8",
                 jsonp: "callback",
                 success: function (data) {
                     $("#loc").html(data.name + ", " + data.sys.country);
